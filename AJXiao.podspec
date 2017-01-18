@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    A simple module for my onw project.
                    DESC
 
-  s.homepage         = "https://github.com/AJXiao/AJXiao"  
+  s.homepage         = "https://github.com/AJXiao"  
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Licensing your code is important. See http://choosealicense.com for more info.
@@ -111,7 +111,6 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'  
-
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
@@ -125,6 +124,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "AFNetworking", "~> 3.1.0"
+  s.dependency "SDWebImage", "~> 3.8.2"
 
 end
