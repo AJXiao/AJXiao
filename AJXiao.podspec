@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AJXiao"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A simple module for my onw project."
 
   # This description is used to generate tags and improve search results.
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                  #测试库
+                   A simple module for my onw project.
                    DESC
 
-
+  s.homepage         = "https://github.com/AJXiao/AJXiao"  
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Licensing your code is important. See http://choosealicense.com for more info.
@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/AJXiao/AJXiao.git"}
+  s.source       = { :git => "https://github.com/AJXiao/AJXiao.git" :tag => s.version.to_s}
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
