@@ -9,6 +9,7 @@
 #import "AJImageView.h"
 #import "UIImageView+WebCache.h"
 
+
 @interface AJImageView ()
 
 
@@ -21,6 +22,8 @@
     if(self = [super initWithFrame:frame]){
         //模拟依赖SDWebImage
         [self sd_setImageWithURL:nil];
+        AJXiaoRedView *view = [[AJXiaoRedView alloc]init];
+        [view test];
     }
     return self;
 }

@@ -7,6 +7,8 @@
 //
 
 #import "CommonRequest.h"
+#import "AJXiaoRedView+Test.h"
+#import "AFHTTPSessionManager.h"
 
 @interface CommonRequest ()
 
@@ -19,6 +21,8 @@ static id _commonRequest = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         _commonRequest = [[CommonRequest alloc]init];
+        AJXiaoRedView * redview = nil;
+        [redview test];
     });
     return _commonRequest;
 }

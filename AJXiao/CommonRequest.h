@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AFHTTPSessionManager.h"
+
 
 @interface CommonRequest : NSObject
 
